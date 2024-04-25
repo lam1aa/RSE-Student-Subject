@@ -1,0 +1,13 @@
+As an international student, I find the dataset, Students: Germany, semester, nationality, sex, subject (https://www-genesis.destatis.de/genesis//online?operation=table&code=21311-0003&bypass=true&levelindex=1&levelid=1714001036017#abreadcrumb) interesting because it provides insights into the popularity and gender distribution among German and foreign students in various fields of study.
+
+Possible questions to answer with these data:
+
+1. What are the trends in student enrollment across various fields of study?
+
+2. How does gender distribution vary across different fields of study?
+
+3. Which subject is most popular among international students?
+
+4. Which subjects are most popular among male versus female students?
+
+5. Can we predict future enrollments based on previous semester data?
