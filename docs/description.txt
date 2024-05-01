@@ -13,3 +13,37 @@ Possible questions to answer with these data:
 4. Which subjects are most popular among male versus female students?
 
 5. Can we predict future enrollments based on previous semester data?
+
+
+First, we’ll need to these python libraries to answer these questions:
+- pandas 
+- numpy 
+- matplotlib
+- seaborn 
+- sklearn
+
+1. Trends in student enrollment across various fields of study could be answered by creating 
+    a line plot with semesters on the x-axis and the total number of students on the y-axis. 
+    Each line, colored differently, will represent a unique subject. 
+    For data manipulation and visualization numpy, pandas, matplotlib, and seaborn could be used.
+    This plot will show how the student enrollment in each subject has changed over the semesters.
+
+2. Gender distribution across different fields of study could be answered with a stacked bar chart 
+    with subjects on the x-axis and the total number of students on the y-axis. 
+    Each bar will be divided into two sections (stacked), one for male students and one for female students. 
+    This chart can be generated using matplotlib or seaborn. 
+    For data grouping we will need pandas `groupby()` function.
+
+3. Most popular subject among international students could be answered by finding the subject 
+    that has the highest count of foreign students using pandas `value_counts()` function.
+
+4. Most popular subjects among male versus female students could be answered by finding the subject 
+    that has the highest count of male students and the subject that has the highest count of female students.
+    It will also use the `value_counts()` function.
+
+5. Predicting future enrollments based on previous semester data could be answered using 
+    a linear regression model to predict future enrollments. 
+    The model will be trained with semesters as the independent variable and the total number of students as the dependent variable. 
+    Once the model is trained, it can be used to predict the total number of students for the next semester.
+    It will the `LinearRegression()` function from sklearn for linear regression modeling.
+
