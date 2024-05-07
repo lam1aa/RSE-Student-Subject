@@ -6,13 +6,15 @@ Possible questions to answer with these data:
 
 1. What are the trends in student enrollment across various fields of study?
 
-2. How does gender distribution vary across different fields of study?
+2. Show the distribution of students across top 10 subjects.
 
-3. Which subject is most popular among international students?
+3. How does gender distribution vary across different fields of study?
 
-4. Which subjects are most popular among male versus female students?
+4. Which subject is most popular among international students?
 
-5. Can we predict future enrollments based on previous semester data?
+5. Which subjects are most popular among male versus female students?
+
+6. Can we predict future enrollments based on previous semester data?
 
 
 First, we’ll need to these python libraries to answer these questions:
