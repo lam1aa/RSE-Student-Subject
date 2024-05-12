@@ -1,11 +1,4 @@
-&#xa0;
-
-<h1 align="center">RSE Individual Project</h1>
-
-<hr>
-
-
-<br>
+# RSE Individual Project #
 
 ## Project Overview ##
 
@@ -73,6 +66,5 @@ If you use this software, please cite it using [this](CITATION.cff) file.
 
 ## Contact Information ##
 
-For any inquiries, you can reach out to me through my Git account:
+For any inquiries, you can reach out to me through my Git account: [Lamia Islam](https://gitup.uni-potsdam.de/islam)
 
-<a href="https://gitup.uni-potsdam.de/islam" target="_blank">Lamia Islam</a>
