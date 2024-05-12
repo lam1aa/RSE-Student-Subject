@@ -6,23 +6,23 @@ Possible questions to answer with these data:
 
 1. What are the trends in student enrollment across various fields of study?
 
-2. Show the distribution of students across top 10 subjects.
+2. How does gender distribution vary across different fields of study?
 
-3. How does gender distribution vary across different fields of study?
+3. Show the distribution of students across top 10 subjects.
 
 4. Which subject is most popular among international students?
 
 5. Which subjects are most popular among male versus female students?
 
-6. Can we predict future enrollments based on previous semester data?
 
 
-First, we’ll need to these python libraries to answer these questions:
-- pandas 
-- numpy 
-- matplotlib
-- seaborn 
-- sklearn
+To answer these questions, we'll need to wrangle and analyze the data.
+
+Import necessary libraries (pandas, numpy, matplotlib, etc.)
+Load the data into a pandas DataFrame
+Check for missing values and clean/impute if needed
+Convert data types (e.g. convert numeric strings to integers/floats)
+Then for each specific question:
 
 1. Trends in student enrollment across various fields of study could be answered by creating 
     a line plot with semesters on the x-axis and the total number of students on the y-axis. 
@@ -36,16 +36,14 @@ First, we’ll need to these python libraries to answer these questions:
     This chart can be generated using matplotlib or seaborn. 
     For data grouping we will need pandas `groupby()` function.
 
-3. Most popular subject among international students could be answered by finding the subject 
-    that has the highest count of foreign students using pandas `value_counts()` function.
+3. Distribution of students across top 10 subjects could be answered with a pie chart. 
+    It will use functions like 'groupby()' and 'sort_values()'
 
-4. Most popular subjects among male versus female students could be answered by finding the subject 
+4. Most popular subject among international students could be answered by finding the subject 
+    that has the highest count of foreign students using `idxmax()` function.
+
+5. Most popular subjects among male versus female students could be answered by finding the subject 
     that has the highest count of male students and the subject that has the highest count of female students.
-    It will also use the `value_counts()` function.
+    It will also use the `groupby()` function.
 
-5. Predicting future enrollments based on previous semester data could be answered using 
-    a linear regression model to predict future enrollments. 
-    The model will be trained with semesters as the independent variable and the total number of students as the dependent variable. 
-    Once the model is trained, it can be used to predict the total number of students for the next semester.
-    It will the `LinearRegression()` function from sklearn for linear regression modeling.
 
