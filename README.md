@@ -1,5 +1,17 @@
 # RSE Individual Project #
 
+<p align="center">
+  <a href="#project-overview">Overview</a> &#xa0; | &#xa0; 
+  <a href="#research-questions">Research Question</a> &#xa0; | &#xa0;
+  <a href="#how-to-use">How to Use</a> &#xa0; | &#xa0;
+  <a href="#tools-used">Tools</a> &#xa0; | &#xa0;
+  <a href="#starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#license">License</a> &#xa0; | &#xa0;
+  <a href="#citation">Citation</a> &#xa0; | &#xa0;
+  <a href="#contact-information">Contact Information</a>
+</p>
+
+
 ## Project Overview ##
 
 This project is a comprehensive analysis of educational trends in Germany, with a focus on higher education. Utilizing advanced data analysis and visualization techniques, we aim to provide valuable insights that can inform decisions related to higher education policies and practices.
