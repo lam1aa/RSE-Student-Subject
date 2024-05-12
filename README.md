@@ -1,98 +1,78 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="RSE Project" />
+&#xa0;
 
-  &#xa0;
+<h1 align="center">RSE Individual Project</h1>
 
-  <!-- <a href="https://rsestudentsubject.netlify.app">Demo</a> -->
-</div>
+<hr>
 
-<h1 align="center">RSE Project</h1>
-
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/rse-student-subject?color=56BEB8">
-
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/rse-student-subject?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/rse-student-subject?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/rse-student-subject?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/rse-student-subject?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/rse-student-subject?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/rse-student-subject?color=56BEB8" /> -->
-</p>
-
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Rse Student Subject 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
-
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
-</p>
 
 <br>
 
-## :dart: About ##
+## Project Overview ##
 
-Describe your project
+This project is a comprehensive analysis of educational trends in Germany, with a focus on higher education. Utilizing advanced data analysis and visualization techniques, we aim to provide valuable insights that can inform decisions related to higher education policies and practices.
 
-## :sparkles: Features ##
+The primary resource for our analysis is the [Students: Germany, semester, nationality, sex, subject](https://www-genesis.destatis.de/genesis//online?operation=table&code=21311-0003&bypass=true&levelindex=1&levelid=1714001036017#abreadcrumb) dataset from the [Genesis Online](https://www-genesis.destatis.de/genesis/online) Database. This dataset offers detailed statistics on student demographics in Germany, including the distribution of gender across various subjects and semesters.
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+Our goal is to leverage this data to understand patterns and trends in higher education in Germany. By doing so, we hope to contribute to the ongoing discussions and efforts aimed at improving educational outcomes and experiences for all students.
 
-## :rocket: Technologies ##
+## Research Questions ##
 
-The following tools were used in this project:
+- What are the trends in student enrollment across various fields of study?
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- How does gender distribution vary across different fields of study?
 
-## :white_check_mark: Requirements ##
+- Show the distribution of students across top 10 subjects.
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+- Which subject is most popular among international students?
 
-## :checkered_flag: Starting ##
-
-```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/rse-student-subject
-
-# Access
-$ cd rse-student-subject
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-```
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+- Which subjects are most popular among male versus female students?
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+## How to Use ##
 
-&#xa0;
+This project is a Python-based data analysis project. The data used in this project is stored in the `data` folder. The main code for the project is in the `src` directory, specifically in the `EDA.ipynb` Jupyter notebook file.
 
-<a href="#top">Back to top</a>
+### Tools Used ###
+
+- [Pandas](https://pandas.pydata.org)
+- [Matplotlib](https://matplotlib.org)
+- [Python](https://www.python.org)
+- [Jupyter Notebook](https://jupyter.org)
+
+
+### Starting ###
+
+1. Ensure that you have [Git](https://git-scm.com), [Python](https://www.python.org) and all the other tools installed.
+   
+2. Clone the repository to your local machine.
+   ```
+   $ git clone https://gitup.uni-potsdam.de/islam/rse-student-subject.git
+   ```
+
+3. Navigate to the `src` directory.
+   ```
+   $ cd src
+   ```
+
+4. Open the `EDA.ipynb` file in Jupyter Notebook.
+   ```
+   $ jupyter notebook
+   # The server will initialize in the <http://localhost:8888>
+   ```
+
+5. Run the cells in the notebook to perform the data analysis.
+
+
+## License ##
+
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
+
+## Citation ##
+
+If you use this software, please cite it using [this](CITATION.cff) file.
+
+## Contact Information ##
+
+For any inquiries, you can reach out to me through my Git account:
+
+<a href="https://gitup.uni-potsdam.de/islam" target="_blank">Lamia Islam</a>
